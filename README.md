@@ -1,8 +1,7 @@
-# Topic Aware Chatbot Using Transformers
 # Can we build a neural net based chatbot to produce responses that are relevant and aware of the current context?
-# Concept - Pay Attention to Attention
+# Key Concept
+- Pay Attention to Attention - additional context
 Context relationships are build between the input and output words based on modifiedWord embedding vectors
-# Pay Attention to Attention - additional context
 Additional context relationships are build between the topic words and encoder-decoder outputs based on modified word embedding vectors from the topic
 # Current Research - Seq2Seq Model with Topic Attention
 ### Current Research - Limitations
