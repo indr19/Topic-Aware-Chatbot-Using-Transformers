@@ -20,8 +20,10 @@ Long input sequences suffer considerably using this mechanism
 
 Q = Encoder-Decoder Attention Output vectorK = V = Weighted Topic Word Embedding Vector
 
-### Evaluation MetricsLoss Function : Sparse Categorical Cross Entropy
-### BLEU Score : Bleu score was used to evaluate the generated sentence to the expected sentence
+### Evaluation MetricsLoss Function : 
+Sparse Categorical Cross Entropy
+### BLEU Score : 
+Bleu score was used to evaluate the generated sentence to the expected sentence
 # Future work
 - Use transfer learning with BERT encoder pre-trained outputs and integrating it with the LSTM decoder model.
 - Try other formulas to compute the values of topic embedding matrix to see if we can get better results and analyze them
